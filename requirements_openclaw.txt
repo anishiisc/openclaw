@@ -1,0 +1,15 @@
+# ============================================================
+# OpenClaw Tutorial — Python Dependencies
+# ============================================================
+# Install: pip install -r requirements.txt
+# ============================================================
+
+# Core — required for all artifacts
+anthropic>=0.39.0
+python-dotenv>=1.0.0
+
+# OpenClaw SDK — for Artifacts 1 & 3 (SDK mode)
+openclaw-sdk>=2.1.0
+
+# Stock data — for Artifact 2 (Custom Skill)
+yfinance>=0.2.36
